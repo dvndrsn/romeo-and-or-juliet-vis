@@ -12,6 +12,13 @@
   stroke-opacity: .6;
 }
 
+.path {
+  fill: none;
+  stroke: #665;
+  stroke-width: 1.5px;
+  
+}
+
 </style>
 <body>
 <script src="//d3js.org/d3.v3.min.js"></script>
@@ -39,10 +46,11 @@ d3.json("romeo-juliet.json", function(error, graph) {
       .links(graph.links)
       .start();
 
-  var link = svg.selectAll(".link")
+  var path = svg.selectAll(".path")
       .data(graph.links)
-    .enter().append("line")
-      .attr("class", "link")
+    .enter().append("path")
+      .attr("marker-end", "url(#end)")
+      .attr("class", "path")
       .style("stroke-width", function(d) { return Math.sqrt(d.value); });
 
      var node = svg.selectAll(".node")
@@ -57,7 +65,7 @@ d3.json("romeo-juliet.json", function(error, graph) {
       .text(function(d) { return d.name; });
 
   force.on("tick", function() {
-    link.attr("x1", function(d) { return d.source.x; })
+    path.attr("x1", function(d) { return d.source.x; })
         .attr("y1", function(d) { return d.source.y; })
         .attr("x2", function(d) { return d.target.x; })
         .attr("y2", function(d) { return d.target.y; });
