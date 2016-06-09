@@ -1,7 +1,23 @@
 {
 "nodes":[
-{"name":"blah", "group":1},
-{"name":"bar", "group":2}
+{"name":"Intro",  "group":1},
+{"name":"Choose Char", "group":1},
+{"name":"Romeo Prances", "group":3},
+{"name":"Romeo Steals Cake", "group":3},
+{"name":"Romeo Shoots and gets away with it", "group":3},
+{"name":"Juliet complains", "group":5},
+{"name":"Juliet is scolded", "group":5},
+{"name":"Be Nurse", "group":7},
+{"name":"Nurse chooses to scold", "group":7},
+{"name":"Nurse send Juliet to priest", "group":7},
+{"name":"Juliet chooses to got to priest", "group":5},
+{"name":"Juliet runs away", "group":5},
+{"name":"Juliet kills herself", "group":5},
+{"name":"Juliet becomes a pirate", "group":5},
+{"name":"Romeo marries his 2nd cousin", "group":3},
+{"name":"Priest cries", "group":9}
+
+
 ],
 "links":
 {"source":0, "target":1, "value":1}
