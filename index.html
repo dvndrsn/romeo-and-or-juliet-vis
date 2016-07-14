@@ -144,10 +144,18 @@
                    .attr("class", "node")
                    .attr("r", function(d) { return d.is_ending ? 6 : 3 })
                    .style("fill", function(d) { return color(d.pov); })
+                   .attr("data-legend", function(d) { return d.pov; } )
+                   .attr("data-legend-color", function(d) { return color(d.pov); })
                    .call(force.drag);
 
      node.append("title")
          .text(function(d) { return d.id + ": " + d.description + " (" + d.pov + ")"; });
+
+     /* legend = svg.append("g") */
+     /* .attr("class","legend") */
+     /* .attr("transform","translate(50,30)") */
+     /* .style("font-size","12px") */
+     /* .call(d3.legend); */
 
      force.on("tick", function() {
          path.attr("d", function(d) {
