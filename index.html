@@ -6,171 +6,73 @@
         <link href="styles/raoj.css" rel="stylesheet" type="text/css">
     </head>
     <body>
+        <div class="container">
+            <div class="content">
         <header>
-            <div>
+            <div class="title" ">
                 <h1>ROMEO AND/OR JULIET<br>AND/OR GRAPH THEORY</h1>
             </div>
-            <div>
-                <p><i>It is not in the stars to hold our destiny but in ourselves.<br>-William Shakespeare</i></p>
-                <p>The below constellation of choices represents all possible paths and endings present in Ryan North's wonderful chooseable path adventure Romeo and/or Juliet. There are some spoilers here, but I hope this encourages you to pick up a copy of the book! Its truely creative, hillarious and even insightful about the plot for Shakespeare's Romeo and Juliet. Gave me a new appreciation. One of the pleasures of Ryan's interpretation is that of discovery and exploration, seeing the gorgous art and potential other paths tease you as you flip between passages for choices you've made and I hope that this project allows a different kind of exploration and discovery of the work, showing the larger structure with branching and converging fates of the characters as you make your choices through the story.</p>
-                <p>This page was created using D3.js's force directed layout, SVG and good old fashioned data entry gumption. Dots represent the story passages and arrows the choices between them. You can hover over a passage or choice to see more information about it. The color of the passage represents the POV character. Choices that direct you to follow the path of Shakespeare's version of the story are red, while Ryan North's elaborations are white. Larger dots are endings, while the largest dots are the story's beginning and ending. The layout is generated automatically and will be different every time. If it gets a little tangled, you can click and drag passages around to get a better look. **You can also zoom using your mouse's scroll wheel.**</p>
+            <div class="notes">
+                <p class="quote">It is not in the stars to hold our destiny but in ourselves.<br>-William Shakespeare</p>
+                <p>The below constellation of choices represents all possible paths and 100+ endings present in <a href="https://twitter.com/ryanqnorth">Ryan North's</a> wonderful chooseable path adventure <a href="http://www.romeoandorjuliet.com/">Romeo and/or Juliet</a>.</p>
             </div>
         </header>
-        <article>
-        </article>
+        <section class="graph-sec">
+        </section>
+        <section class="text">
+            <div class="notes">
+                <p>One of the pleasures of Ryan's interpretation of R&J is the sense of discovery through exploring the many branching choices of the story. As you flip through the book, even brief glimpses of the other possible choices and beautifully illustrated endings (<a href="https://twitter.com/johnmartz/status/740220631480819712">tragic stabby endings</a>, <a href="https://twitter.com/kevinjaystanton/status/740190136256847872">happy endings</a>, <a href="https://twitter.com/ryanqnorth/status/739091475552698368">weird endings</a> and <a href="https://twitter.com/michaelfirman/status/740259107140177923">t-rex endings</a>) encourage the reader to meander and learn more about the possibilities and structure of the narritive.</p>
+                <p>This visualization allows a different kind of exploration and discovery of the work; showing the entire structure from a bird's eye view with branching and converging fates of the characters as choices are made through the story. Even if you've haven't read the book yet, it should be possible to get an appreciation for the intricate planning and creativity that went into building this experience (hopefully with minimal spoilers!).</p>
+                <p>Pretty decision graphs aside, <a href="https://www.amazon.com/gp/product/1101983302/ref=as_li_tl?ie=UTF8&tag=dvndrsn-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=1101983302&linkId=38237c595e57b604459c88589ca36d77">the book</a> is certainly worth picking up. Not only does it play off <a href="http://www.qwantz.com/">geeky humor</a>, <a href="http://www.cracked.com/article_22188_7-choose-your-own-adventure-books-clearly-conceived-lsd.html">nostalaglia for past Choose Your Own Adventure Books</a> and <a href="https://www.wikiwand.com/en/Romeo_and_Juliet">expectations from Shakespeare's classic story</a> in truely hilarious manner, I also found that reading this gave me better appreciation of the true cost of bad teen decisions, bad timing and bad communication skills as well as a deeper insight into what made Shakespeare's works such a lasting influence.</p>
+            <p>This page was created using graphics from <a href="https://github.com/d3/d3/wiki">D3.js's</a> force directed layout with <a href="https://github.com/d3/d3/wiki">SVG</a>, data processing using <a href="https://docs.python.org/3/">Python's</a> <a href="https://networkx.github.io/">Networkx</a> library and good old fashioned data entry gumption. You can read more about the technical aspects of implementation on my blog <a href="[blog]">here</a>.</p>
+            </div>
+            <div class="notes">
+                <p><i>Tips for reading the graph:</i></p>
+                <ul>
+                    <li><b>Hover your mouse over a passage or choice</b> <i>to see more information about it</i>.</li>
+                    <li>
+                        <b>Click and drag passages</b> <i>to get a better look at the dynamic layout</i>.
+                    </li>
+                    <li><b>Circles</b> (
+                        <svg width="10" height="10">
+                            <circle class="node" r="3" fill="#FFFFFF" cx="5" cy="5""></circle>
+                        </svg>
+                        ) <i>represent the story passages</i>.
+                    <ul>
+                    <li><b>The color of the passage</b> <i>represents the character point of view</i>:
+                        <ul>
+                            <li><b class="reader"">White</b> <i>for the reader</i>.</li>
+                            <li><b class="romeo">Red</b> <i>for Romeo</i>.</li>
+                            <li><b class="juliet">Light red</b> <i>for Juliet</i>.</li>
+                            <li><b class="other">Other colors</b> <i>represent hidden characters and paths</i>.</li>
+                        </ul>
+                    </li>
+                    <li><b>Larger circles</b> (
+                        <svg width="20" height="20">
+                            <circle class="node" r="6" fill="#FFFFFF" cx="10" cy="10""></circle>
+                        </svg>
+                        ) <i>indicate one of the book's 100+ endings</i>.
+                    </li>
+                    <li>
+                        <b>The largest circles</b> (
+                        <svg width="30" height="30">
+                            <circle class="node" r="12" fill="#FFFFFF" cx="15" cy="15""></circle>
+                        </svg>
+                        ) <i>show the story's beginning and true ending</i>.
+                    </li>
+                    </ul></li>
+                    <li><b>Arrows</b> <i>represent the choices between passages</i>.
+                        <ul>
+                            <li><b>Red highlighted choices</b> <i>follow the path of Shakespeare's version of the story</i>.</li>
+                            <li><b>White choices</b> <i>show Ryan North's elaborations on the traditional story</i>.</li>
+                        </ul></li>
+                </ul>
+            </div>
+        </section>
         <footer>
-            <p>Created by @dvndrsn as Recurse Center. Code available on github.</p>
+            <p><i>Created by <a href="https://twitter.com/dvndrsn">@dvndrsn</a> as a <a href="http://recurse.com/">Recurse Center</a> alum. Code is open source and available on <a href="https://github.com/dvndrsn/romeo-and-or-juliet-vis">github</a>.</i></p>
         </footer>
-<script src="http://d3js.org/d3.v3.min.js"></script>
-<script>
-
- var width = 750,
-     height = 750;
-
- var color = d3.scale.ordinal()
-               .domain(["Reader", "Romeo",   "Juliet",  "Nurse",   "R&J",
-                        "Rosaline", "Puck",   "Macbeth", "P&T"])
-               .range(["#FFFFFF", "#CD3E38", "#FACBC5", "#C37873", "#984B45",
-                       "#521711",   "AEE2CC", "#AEE2CC", "#AEE2CC"]);
-
- var force = d3.layout.force()
-               .friction(.7)
-               .charge(-500)
-               .gravity(1.3)
-               .size([width, height]);
-
- var zoom = d3.behavior.zoom()
-              .scaleExtent([.5, 10])
-              .on("zoom", zoomed);
-
- function zoomed() {
-     container.attr("transform", "translate(" + d3.event.translate + ")scale(" + d3.event.scale + ")");
- }
-
- function dragstarted(d) {
-     d3.event.sourceEvent.stopPropagation();
-     d3.select(this).classed("dragging", true);
- }
-
- function dragged(d) {
-     d3.select(this).attr("cx", d.x = d3.event.x).attr("cy", d.y = d3.event.y);
- }
-
- function dragended(d) {
-     d3.select(this).classed("dragging", false);
- }
-
- var svg = d3.select("article").append("svg")
-             .attr("width", width)
-             .attr("height", height)
-             .append("g")
-             .call(zoom);
-
- var container = svg.append("g");
-
-
- var drag = d3.behavior.drag()
-              .origin(function(d) { return d; })
-              .on("dragstart", dragstarted)
-              .on("drag", dragged)
-              .on("dragend", dragended);
-
- d3.json("RaoJ.json", function(error, graph) {
-     if (error) throw error;
-
-     force
-      .nodes(graph.nodes)
-      .links(graph.links)
-      .start();
-
-     /* var link = svg.selectAll(".link") */
-     /* .data(graph.links) */
-     /* .enter().append("line") */
-     /* .attr("class", "link") */
-     /* .style("stroke-width", function(d) { return Math.sqrt(d.value); }) */
-     /* .style("stroke", function(d) { return d.bard_choice ? "#CD3E38" : null}); //"#FFFFFF" }); */
-     /*  */
-     /* link.append("title") */
-     /* .text(function(d) { d.description; }); */
-     // build the arrow.
-
-     svg.append("svg:defs").selectAll("marker")
-                      .data(["end", "bard_end"])      // Different link/path types can be defined here
-                      .enter().append("svg:marker")    // This section adds in the arrows
-                      .attr("id", String)
-                      .attr("viewBox", "0 -5 10 10")
-                      .attr("refX", 13)
-                      .attr("refY", 0)
-                      .attr("markerWidth", 3)
-                      .attr("markerHeight", 3)
-                      .attr("orient", "auto")
-                      .attr("fill", function(d) { return d === "end" ? "#FFFFFF" : "#CD3E38"})
-                      .append("svg:path")
-                      .attr("d", "M0,-5L10,0L0,5");
-
-     // add the links and the arrows
-     var path = container.append("svg:g").selectAll("path")
-                   .data(graph.links)
-                   .enter().append("svg:path")
-         //    .attr("class", function(d) { return "link " + d.type; })
-                   .attr("class", "link")
-                   .attr("stroke", function(d) { return d.bard_choice ? "#CD3E38" : "#FFFFFF"})
-                   .attr("marker-end", function(d) { return d.bard_choice ? "url(#bard_end)" : "url(#end)"});
-
-     path.append("title")
-         .text(function(d) { return d.description; });
-
-     var node = container.selectAll(".node")
-                         .data(graph.nodes)
-                         .enter().append("circle")
-                         .attr("class", "node")
-                         .attr("r", function(d) {
-                             if (d.is_ending) {
-                                 return 6;
-                             } else if (d.id == 'Cover' || d.id == 'THE REAL END') {
-                                 return 12;
-                             } else {
-                                 return 3;
-                             }
-                         })
-                         .style("fill", function(d) { return color(d.pov); })
-                         .attr("data-legend", function(d) { return d.pov; } )
-                         .attr("data-legend-color", function(d) { return color(d.pov); });
-         /* .call(drag); */
-
-     node.append("title")
-         .text(function(d) { return d.id + ": " + d.description + " (" + d.pov + ")"; });
-
-     /* legend = svg.append("g") */
-     /* .attr("class","legend") */
-     /* .attr("transform","translate(50,30)") */
-     /* .style("font-size","12px") */
-     /* .call(d3.legend); */
-
-     force.on("tick", function() {
-         path.attr("d", function(d) {
-             /* var dx = d.target.x - d.source.x, */
-             /* dy = d.target.y - d.source.y, */
-             /* dr = Math.sqrt(dx * dx + dy * dy); */
-             return "M" +
-                    d.source.x + "," +
-                    d.source.y + " " + // "A" +
-                    /* dr + "," + dr + " 0 0,1 " + */
-                    d.target.x + "," +
-                    d.target.y;
-
-         });
-         /* link.attr("x1", function(d) { return d.source.x; }) */
-         /* .attr("y1", function(d) { return d.source.y; }) */
-         /* .attr("x2", function(d) { return d.target.x; }) */
-         /* .attr("y2", function(d) { return d.target.y; }); */
-
-         node.attr("cx", function(d) { return d.x; })
-             .attr("cy", function(d) { return d.y; });
-
-     });
- });
-
-</script>
-</body>
+        <script src="http://d3js.org/d3.v3.min.js"></script>
+        <script src="scripts/raoj.js"></script>
+    </body>
 </html>

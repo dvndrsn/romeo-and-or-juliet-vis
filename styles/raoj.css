@@ -1,0 +1,115 @@
+/*
+            White: #FFFFFF
+            Black: #20110E
+            Teal: #AEE2CC
+            Lt. Red: #FACBC5
+            Red: #CD3E38
+            Lt. Red Grey: #C37873
+            Dk. Red Grey: #984B45
+            M. Dk. Red Grey: #521711
+            V. Dk. Red Grey: 3B0600
+*/
+.reader {
+    color: #FFFFFF;
+    background-color: #20110E;
+}
+
+.juliet {
+    color: #FACBC5;
+    background-color: #20110E;
+}
+
+.romeo {
+    color: #CD3E38;
+    background-color: #20110E;
+}
+
+.other {
+    color: #C37873;
+    background-color: #20110E;
+}
+
+.quote {
+    font-style: italic;
+    margin-left: 5pt;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    margin: 0 auto;
+    max-width: 900px;
+    min-width: 750px;
+    flex: 1;
+}
+
+.graph {
+    display: block;
+    margin: auto;
+}
+
+.title {
+    flex: 0;
+    min-width: 400px;
+}
+
+.notes {
+    flex: 1;
+    margin: 10px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+}
+
+h1 {
+    font-family: 'Catamaran', sans-serif;
+}
+
+section.text {
+    display: flex;
+    flex-direction: row;
+}
+
+body {
+    background-color: #AEE2CC;
+    color: #20110E;
+}
+
+p {
+    text-align: justify;
+}
+
+a {
+    color: #CD3E38;
+    visited: #C37873;
+}
+/* .link { */
+/* stroke: #FFFFFF; */
+/* stroke-width: 2.5px; */
+/* stroke-opacity: .6; */
+/* } */
+
+.node {
+    stroke: #3B0600;
+    stroke-width: 2px;
+}
+
+path.link {
+    fill: none;
+    /* stroke: #FFFFFF; */
+    stroke-width: 3px;
+    stroke-opacity: .6;
+}
+
+.marker {
+    fill: #FFFFFF;
+    stroke: #FFFFFF;
+}
+
