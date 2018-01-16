@@ -1,0 +1,480 @@
+passage	passage_description	pov	is_ending	tags
+1	Romeo and/or Juliet intro	Reader	N	
+2	Non-linear reminder	Reader	N	
+3	Spoilers!	Reader	N	
+4	Blast some weights before the party	Juliet	N	
+5	Drink a protein shake	Juliet	N	
+6	Do chores	Juliet	N	
+7	Open tricky jars	Juliet	N	
+8	Mom starts conversation	Juliet	N	
+9	Nurse gives background	Juliet	N	
+10	Mom wants you to get married	Juliet	N	
+11	Tom Paris is perfect	Juliet	N	
+12	Tom Paris has a hot bod	Juliet	N	
+13	Get ready to start the party	Juliet	N	
+14	Confess your problem with love	Romeo	N	
+15	William Shakespeare Bio	Reader	N	
+16	Kill Capulets, but maybe marry them	Romeo	N	
+17	Talk about vest later at restaurant	Romeo	N	
+18	Poetical descriptions of Rosaline	Romeo	N	
+19	Feelings and a note	Romeo	N	
+20	Talk love w/ Breakfast on the brain	Romeo	N	
+21	Garbage too small	Romeo	N	
+22	Ryan North Bio	Reader	N	
+23	Plan to manipulate families to peace	Romeo	N	
+24	Visit your friend Friar Lawrence	Romeo	N	
+25	Run away from home	Juliet	N	
+26	Detailed plan on marrying Capulets	Romeo	N	
+27	Romeo's sad about Roseline	Romeo	N	
+28	Noticed blood on Benvolio's face	Romeo	N	
+29	Chaste Rosaline	Romeo	N	
+30	Sneak into Capulet Castle	Romeo	N	
+31	Heimlich and ghost babes	Romeo	Y	ending; romeo dies; choking on food
+32	Mechanical breakfast processes	Romeo	N	
+33	Run back home the long way	Juliet	N	
+34	Skip party, get breakfast	Romeo	N	
+35	Drink all the Fake Death Juice	Romeo	N	
+36	Choose character	Reader	N	
+37	Lie to Peter about reading	Romeo	N	
+38	Full breakfast and beach justice	Romeo	N	
+39	Decide to move on from Rosaline	Romeo	N	
+40	Painfully aware of bodily functions	Romeo	N	
+41	RPS win & rematch	Romeo	N	
+42	Looking good as a maid	Romeo	N	
+43	Kill the afternoon reading	Romeo	N	
+44	Defiant against mother	Juliet	N	
+45	Late breakfast and a plan	Romeo	N	
+46	A beer at the bar	Juliet	N	
+47	A couple days pass	Romeo	N	
+48	Discuss love and bitten thumbs	Romeo	N	
+49	Move on from childish crushes	Romeo	Y	ending; marry someone; have kids
+50	Read Capulet's party invite	Romeo	N	
+51	Outside the party	Romeo	N	
+52	Real talk with Benvolio	Romeo	N	
+53	First impressions w/ the Capulets	Romeo	N	
+54	Hopes & Dreams of Mrs. Motague & Capulet	Romeo	N	
+55	Terrible disguise	Romeo	Y	ending; Romeo dies; via Capulet murder
+56	Clean wrong room	Romeo	N	
+57	Look at guys at bar	Juliet	N	
+58	Horse meet unicorn	Juliet	N	
+59	One day later	Romeo	N	
+60	Benvolio cheats to beat paper	Romeo	N	
+61	Party w/ a unicorn mask	Romeo	N	
+62	Too much fake death juice	Romeo	Y	ending; romeo dies; too much fake death poition; 0 of 5000 points
+63	Jake Wheeze monolog	Juliet	N	
+64	Draw. Also rock.	Romeo	N	
+65	Clean empty room	Romeo	N	
+66	Thirsty buzzed jog home	Juliet	N	
+67	Benvolio cheats to beat scissors	Romeo	N	
+68	Flirting with Unicorn	Juliet	N	
+69	Ate breakfast & got married	Romeo	Y	ending; marry Juliet; end conflict
+70	Kick parents out	Juliet	Y	ending; date Romeo; marry Cesario; 32,767 points; point overflow
+71	Enjoying cleaning the depths	Romeo	N	
+72	Also rock	Romeo	N	
+73	Before party summary	Romeo	N	
+74	Flirting from Juliet to Romeo	Romeo	N	
+75	Get drunk	Juliet	N	
+76	Tom proposal	Juliet	N	
+77	Take off mask and flirt	Juliet	N	
+78	Get sick at party	Juliet	N	
+79	Benvolio cheats to beat rock	Romeo	N	
+80	Open bar	Romeo	N	
+81	No swords, but a joust in the woods	Romeo	Y	ending; Romeo dies; Benvolio dies; sturdy branch joust to the eye
+82	Parties till marriage or death	Juliet	N	
+83	RPS loss	Romeo	N	
+84	Fun buzzed jog home	Juliet	N	
+85	New love & Overbearing parents	Romeo	Y	ending; Romeo dies; Amelia dies; marry Amelia Ameliason; even though you're dead
+86	Solve problems with puke	Juliet	Y	ending; marry Orlando; wrestle a lion; "holy crap that's awesome" out of 1,000
+87	Downward spiral of public nudity	Romeo	Y	ending; Romeo dies; jailed; old age, spooky skeleton
+88	Palmers retort	Juliet	N	
+89	Meet Juliet while cleaning	Romeo	N	
+90	Author's relief	Romeo	N	
+91	Benvolio fist tornado	Romeo	Y	ending; Romeo dies; eternal fist tornado
+92	Life with Yolo	Juliet	Y	ending; marry no one; still happy; be a pirate
+93	Nonstop voms	Juliet	N	
+94	Headbut, Tom Paris intro	Juliet	N	
+95	Life as a maid	Romeo	Y	ending; Romeo dies; enjoys being a cleaning ninja forever
+96	Take off masks	Romeo	N	
+97	Lips for prayer	Juliet	N	
+98	Reject Tom Paris	Juliet	N	
+99	Predict bad fate	Romeo	N	
+100	See Rosaline (not Rosaline)	Romeo	N	
+101	Clean a bunch on your way	Romeo	N	
+102	RPS avenger: duel to the death	Romeo	N	
+103	Throw up at the party	Romeo	Y	ending; social pariah; move to Denmark; Romeo dies; Ophilia's ninja skills
+104	It's loud at the party	Juliet	N	
+105	Bad at murder	Juliet	Y	ending; Juliet dies; cliff tossing execution
+106	The talk & sneaking around w/ boys	Juliet	Y	ending; date Harry Percy; single mom; Juliet Jr.
+107	Swim coach	Juliet	Y	ending; marry if you marry IRL
+108	Capulet dad's balcony	Romeo	N	
+109	Capulet mom's balcony	Romeo	N	
+110	Speak fancy, Juliet as the sun	Romeo	N	
+111	Flirting over loud music	Romeo	N	
+112	Queen Mab in Iambic Pentameter	Romeo	N	
+113	Lips purge sin	Juliet	N	
+114	Epic monologue about Romeo	Juliet	N	
+115	Life with Tom Paris	Juliet	Y	ending; marry Tom Paris
+116	Try to pick up Juliet	Romeo	N	
+117	Decide how to kill him	Juliet	N	
+118	Romeo by another plain name	Romeo	N	
+119	Capulet mom's balcony	Romeo	N	
+120	Making out out at the party	Reader	N	
+121	Juliet goes to bed, dad pursues	Romeo	Y	ending; romeo dies; thrown off cliff by Capulet dad
+122	Get engaged and send the nurse to make arrangements	Juliet	N	
+123	Bad pickup line	Romeo	N	
+124	A Midsummer's Night Choice: Oberon's scheme	Puck	N	
+125	Drug wrong human couple	Puck	N	
+126	Cloud love and broken heart	Puck	Y	ending; Puck dies; brokenhearted after loved cloud fades away
+127	Invent potion from Cupid flowers	Puck	N	
+128	Oberon eats your head	Puck	Y	ending; head eaten by Oberon
+129	Further concentrated potion	Puck	N	
+130	The perfect crime; everyone reverted	Puck	Y	ending; Oberon got his way; everything back to normal
+131	Drugs are bad and murder crimes are worse	Puck	Y	ending; Puck dies; from drugs; Oberon dies; Puck chops head off with scissors
+132	Test LIKE potion	Puck	N	
+133	Farie society changes, true love & unhealthy norms	Puck	Y	ending; you die; just because; 
+134	Revert Titania	Puck	Y	ending; Oberon got his way; humans still in love
+135	Use potion on Titania and humans	Puck	N	
+136	Titania death potion	Puck	Y	ending; Puck dies; Titania's well-tested death potion
+137	Drug the right human couple	Puck	N	
+138	Pyramus & Thisbe	P&T	Y	ending; multiple; various bad and good things for P&T
+139	Normal monologue about Romeo	Juliet	N	
+140	Moon is inconstant	Romeo	N	
+141	Saints don't move	Juliet	N	
+142	Romeo by another fancy name	Romeo	N	
+143	Nurse shares the plan	Juliet	N	
+144	Thinking about Romeo	Juliet	N	
+145	Good at murder	Juliet	Y	ending; marry no one; lots of friends; be a black widow
+146	Downtown Verona clockwork gate	Nurse	N	
+147	Juliet as the sun in plain english	Romeo	N	
+148	The party ends & sneak around	Romeo	N	
+149	Friends leave, talk to nurse	Romeo	N	
+150	Romeo hides and Capulet finds him	Romeo	Y	ending; romeo dies; stabbed by naked Capulet with a bunch of swords
+151	Romeo flakes & Juliet pursues her passions	Juliet	Y	ending; romeo dies; juliet is awesome
+152	A random date	Romeo	N	
+153	Naked slaying & Gothic trendsetter	Juliet	Y	ending; romeo dies; dad naked w/ 15 swords; Juilet is fashionable
+154	The party ends	Juliet	N	
+155	Capulet dad's balcony	Romeo	N	
+156	Seriously skip it??	Romeo	N	
+157	Wish granted	Romeo	Y	ending; romeo dies; he's a glove though
+158	Love is sworn all night long	Romeo	N	
+159	Talk it out about Romeo	Juliet	N	
+160	At Friar's house	Juliet	N	
+161	The gate needs passphrase	Nurse	N	
+162	Ghosts at the end of the solar system	Romeo	Y	ending; solar system dies; old ghosts; finally warm
+163	Romeo confesses his love	Juliet	N	
+164	Back to the future	Romeo	Y	ending; George and Lorraine don't marry
+165	Romeo marries Juliet	Romeo	Y	ending; 1000 of 1000 points
+166	Switch to Juliet	Juliet	N	
+167	Juliet balcony plot hole	Romeo	N	
+168	Won duel, lost trial	Romeo	Y	ending; Mercutio dies; duel with Romeo; Romeo dies; leathal injection; GROSS
+169	Nurse takes a long time	Juliet	N	
+170	Juliet asks Romeo to profess love	Romeo	N	
+171	Construct a ghost time machine	Romeo	N	
+172	Seriously skip it??	Juliet	N	
+173	Only way is forward after gate	Nurse	N	
+174	Responsible wedding w/ both families	Romeo	Y	ending; marry Juliet; peace among families
+175	Juliet declines, Romeo is upset	Juliet	Y	ending; break up; Juliet grows up
+176	Intro to servant	Nurse	N	
+177	Vague follow up	Romeo	Y	ending; probably die; vague trouble
+178	Meet the nurse and Friar the next day	Romeo	N	
+179	Servant's cryptic response	Nurse	N	
+180	Waiting for Romeo	Juliet	N	
+181	Montague-Capulet trial	Romeo	N	Tybal, Mercutio, Benvolio dies
+182	Fight ends badly for you	Romeo	Y	ending; stabbed by Tybalt; become a ghost; Fortune's Ghoul
+183	Only way is forward	Nurse	N	
+184	Ready to rumble	Romeo	N	
+185	Division by zero	Romeo	N	
+186	Bribe servant for passcode	Nurse	N	
+187	Missed connections	Romeo	N	
+188	Romeo leaves to see his friends	Juliet	N	
+189	Run and don't stop	Romeo	N	
+190	Quiet adventure	Juliet	N	
+191	Trade blows with Tybalt	Romeo	N	
+192	Go to the wedding	Romeo	N	
+193	Mercutio stabbed by Tybalt	Romeo	N	
+194	Juliet's reaction to Nurse's news	Juliet	N	
+195	Cousin love	Nurse	N	
+196	Suit yourself	Nurse	N	
+197	Fancy bedroom soliloquy	Juliet	N	
+198	Families are banished	Romeo	N	
+199	Mercutio fights Tybalt	Romeo	N	
+200	Through the gate, dogs behind	Nurse	N	
+201	Fight end badly for Tybalt	Romeo	N	
+202	Back to the balcony	Romeo	N	
+203	Wedding ceremony	Juliet	N	
+204	Hiding out at Friar's	Romeo	N	Romeo banished;
+205	Planning at Friar's house	Romeo	N	
+206	You asked	Romeo	N	
+207	Nurse arrives with bad news	Juliet	N	
+208	Got nothing	Nurse	N	
+209	Tybalt returns	Romeo	N	Mercutio dies; stabbed by Tybalt
+210	Benvolio tells news of the sentance	Romeo	N	
+211	Capugues/Montalets of Verona	Romeo	Y	ending; little Ben child; both families banished;
+212	Servant wants nurse hat	Nurse	N	
+213	Plead with Escalus; hide at Friar's	Romeo	N	Romeo banished;
+214	Naive longing	Juliet	N	
+215	Peace between families	Romeo	Y	ending; Tycolia child;
+216	Plague the literal houses	Romeo	N	
+217	Nurse Quest	Nurse	N	
+218	Dark basement simulator	Romeo	N	
+219	Mantua's Retirement Lakes	Romeo	Y	ending; both families banished; marriage annulled; Romeo dies; "accidental" drowing
+220	Juliet marries Romeo	Juliet	Y	ending; marry Romeo; 1000 of 1000 points;
+221	The ride to Mantua on Butt Soft	Romeo	N	
+222	Uneventful trip to Capulet's	Romeo	N	
+223	Five plauges	Romeo	N	
+224	Dramatic, tedious longing	Juliet	N	
+225	Bad news vaguely confrimed	Nurse	N	
+226	Only way forward after servant	Nurse	N	
+227	Gate puzzle explanation (+0)	Nurse	N	
+228	Teary greeting to Nurse	Romeo	N	
+229	Choose a library adventure	Romeo	N	
+230	Fight summary	Romeo	N	
+231	Normal Romeo/Tybalt monologue	Juliet	N	
+232	Hatching a plan	Romeo	N	
+233	Vauge sex talk	Juliet	N	
+234	Captured by police	Romeo	N	
+235	Generic tell-your-friends ending	Reader	Y	ending; tell your friends to buy the book
+236	Torn apart by angry dogs	Nurse	Y	ending; Nurse dies; eaten by dogs
+237	A gross pharmacy	Romeo	N	
+238	Juiet's fault	Romeo	N	
+239	Find another book	Romeo	N	
+240	Catch up	Juliet	N	
+241	Plauge on both houses	Romeo	N	
+242	Slightly better news	Nurse	N	
+243	Gate puzzle (+1)	Nurse	N	
+244	Clarification about Romeo	Juliet	N	
+245	Got the librarian's attention	Romeo	N	
+246	Finished it all night	Romeo	N	
+247	Racist(?!) greeting to Nurse	Romeo	N	
+248	Just live anywhere else in the world	Romeo	N	
+249	Juliet's making me effeminate	Romeo	N	
+250	Introspection	Romeo	N	
+251	Stealth into Verona	Romeo	N	
+252	Plot to kill Verona with Friar's poison	Juliet	N	
+253	Gate puzzle (+4)	Nurse	N	
+254	Fancy Romeo/Tybalt monologue	Juliet	N	
+255	Justice the hard way	Romeo	Y	ending; Romeo dies; executed by Escalus
+256	Mantua with Juliet	Romeo	N	named horse DJ Muscles McGlutes
+257	Philosophy and hair pulling	Romeo	N	
+258	Random section generator	Romeo	N	
+259	Carnivorous horses prey on Europe	Romeo	Y	ending; romeo dies; eaten by dogs and horses;
+260	Mad lib sex waterfall	Romeo	N	
+261	Gate puzzle (+2)	Nurse	N	
+262	Best high five	Romeo	N	
+263	Waiting is the worst	Juliet	N	
+264	Happily tour the world with Romeo	Juliet	Y	ending; travel the world; Romeo-ella and Ross born
+265	Twelfth night chosen path adventure	Reader	Y	ending; Viola marries Duke
+266	Gate puzzle (+4+8)	Nurse	N	
+267	Fun times	Romeo	N	
+268	Limited selection	Romeo	N	
+269	Gate puzzle (+1+2)	Nurse	N	
+270	Verona is heavily guarded	Juliet	N	(rob parents)
+271	SECRET CHARACTER UNLOCKED	Reader	N	
+272	Eternal fame in Boylesque	Romeo	Y	ending; romeo dies; mob justice; ghost in the future
+273	Quick goodbye	Romeo	N	
+274	Juliet lowers the rope ladder	Romeo	N	
+275	Browse Friar's unlabeled stock	Juliet	N	
+276	Gate puzzle (+2+8)	Nurse	N	
+277	Romeo arrives	Juliet	N	
+278	Choices are stressful	Romeo	N	
+279	Gate decoded (+1+4+8)	Nurse	N	
+280	Simple Life in Mantua	Juliet	Y	ending; Juliet runs away; triplets born; fat and awesome
+281	Read the other volume	Romeo	N	
+282	Juiliet goes alone and is missing	Romeo	N	
+283	Larks and nightingales	Romeo	N	
+284	A Midsummer Night's Choice by Knifepoint	Romeo	N	
+285	Gate puzzle (+2+4+8)	Nurse	N	
+286	Make a diversion to get past the guards	Juliet	N	
+287	Ms. Montague murder case intro	Rosaline	N	
+288	Juliet tells Ophelia her plan	Juliet	N	
+289	Satisfaction	Juliet	N	
+290	Come up with a plan in the bushes	Romeo	N	
+291	The clockwork gate opens	Nurse	N	
+292	News from Balthasar	Romeo	N	
+293	Juliet's parents are coming	Romeo	N	
+294	Arrive at Juliet's	Romeo	N	
+295	Gate puzzle (+1+2+8)	Nurse	N	
+296	Caught by Verona guards	Romeo	N	
+297	Choose a scene from another book	Juliet	N	
+298	Get over strong urges to kill suckers	Juliet	Y	ending; build resort for people to get over revenge
+299	Kink and role play	Juliet	Y	ending; return to Mantua; be kinky
+300	True Randomness!	Romeo	N	
+301	Verona mass fake death	Romeo	Y	ending; Juliet dies; suicide off a cliff; Romeo becomes a costumed vigilante
+302	Failing brunch business	Romeo	N	
+303	Lady Montague rigormortis CM	Rosaline	N	
+304	Forced into reading in hard mode	Romeo	N	
+305	Gate puzzle (+1+4)	Nurse	N	
+306	Gate puzzle (+8)	Nurse	N	
+307	Capture by guards with Juliet	Romeo	N	
+308	Kiss goodbye	Romeo	N	
+309	Punny ending	Juliet	N	
+310	Chose your path into town	Romeo	N	
+311	Back to life	Romeo	N	
+312	Best high five	Juliet	N	
+313	Lots of Capulets in the town square	Nurse	N	
+314	Get supplies and poison	Romeo	N	
+315	Juliet rescues herself and the brunch business	Romeo	Y	ending; brunch restaurant; sausage forever;
+316	Hug goodbye	Romeo	N	
+317	Gate puzzle (+1+8)	Nurse	N	
+318	Juliet and Ophilia and the Apockalypse	Juliet	Y	ending; the whole world dies from poison; wish you were a statue; aliens think they're cool
+319	Jake Guardsworth and sexy guard	Juliet	N	
+320	Gagged, impossible odds and Verona razed	Juliet	Y	ending; Romeo and Juliet die; stabbed by guards; Verona destroyed by Capulets; anarchy and hellmouth; be ghosts
+321	Gate puzzle (+1+2+4)	Nurse	N	
+322	So many broken bones	Romeo	Y	ending; Romeo dies; fallen off balcony and beaten by Capulet; 50 points;
+323	Accuse Capulet	Rosaline	N	
+324	Watch Romeo leave	Juliet	N	
+325	Sunrise, Larks and nightingales	Juliet	N	
+326	Failed distraction at Capulet castle	Juliet	Y	ending; Romeo dies; kicked off parapet; Juliet dies; stone falls on neck
+327	Romeo's Handsome face	Nurse	N	
+328	Mad lib sex diagrams	Juliet	N	
+329	Balthasar arrives with supplies	Romeo	N	
+330	Past clockwork gate	Nurse	N	
+331	Gate puzzle (+2+4)	Nurse	N	
+332	Defy the stars	Romeo	N	
+333	Failed distraction at Capulet castle	Romeo	Y	ending; Romeo dies; kicked off parapet
+334	Accused everyone of the crime	Rosaline	N	
+335	Mercutio insult (compliment?)	Nurse	N	
+336	Reasonable goodbye & a knock	Juliet	N	
+337	Failed distraction at Capulet castle	Romeo	Y	ending; Romeo dies; kicked off parapet
+338	Mom is happy about marriage for $	Juliet	N	
+339	Throwing people solves life's problems	Juliet	Y	ending; Capulets tossed out
+340	Gate puzzle (+0)	Nurse	N	
+341	Angry dogs and lions	Nurse	Y	ending; Nurse dies; eaten by dogs and lions
+342	Gate puzzle (+1+2+4+8)	Nurse	N	
+343	Benvolio insult	Nurse	N	
+344	Romeo's still handsome	Nurse	N	
+345	Failed distraction at Capulet castle	Juliet	Y	ending; Romeo dies; kicked off parapet; Juliet dies; stone falls on neck
+346	Montague, man with nothing to lose	Rosaline	Y	ending; Rosaline dies; thrown into the RIver by Montague
+347	Write suicide note	Romeo	N	
+348	Mom will fix Romeo's banishment	Juliet	N	
+349	Friar can help make poison	Juliet	N	
+350	Parents assume you ran away	Juliet	Y	ending; marry Tom Paris; Romeo dies; found by Capulets looking for Juliet
+351	Boring bench	Nurse	N	
+352	Empty downtown	Nurse	N	
+353	Groundhog day at Capulet castle	Juliet	N	
+354	Frustrated at the gate	Nurse	N	
+355	Encounter Tom Paris at the crypt	Romeo	N	
+356	Mercutio not dead theory	Rosaline	N	
+357	Talk about Romeo with Nurse	Juliet	N	
+358	Fair is Foul and/or Foul is fair. Winning battles and meeting witches	Macbeth	N	
+359	Lady M suicide, duel with Macduff	Macbeth	Y	ending; Macbeth dies; Lost duel with Macduff; rightful King restored
+360	Become Thane, murder king per prophecy	Macbeth	N	
+361	Lady M fights, duel with Macduff	Macbeth	Y	ending; Macduff and Macbeth die; duel to the death
+362	Murder simulation done well	Macbeth	Y	ending; Macbeth becomes king with no consequences
+363	Murder Banquo, more witches and war	Macbeth	N	
+364	Frame servants, sabotage Malcom, become king	Macbeth	N	
+365	Reasonable choices lead to stablity	Macbeth	Y	ending; Macbeth and his decendants are successful
+366	Lady M paranoid, King M prepared	Macbeth	N	
+367	Lady M plants weapons, claim crown	Macbeth	N	 
+368	Macbeths united in battle, victorous	Macbeth	Y	ending; Macduff defeated; Macbeth king forever
+369	Marriage arrangements	Nurse	N	
+370	Captured by guards	Rosaline	Y	ending; Rosaline imprisoned indefinitely
+371	Accuse Montague	Rosaline	N	
+372	Back at clockwork puzzle	Nurse	N	
+373	Clear communication pays off	Juliet	Y	ending; peace; Romeo unbanished; Manhump Buttstuff Montague-Capulet born;
+374	Insults from parents	Juliet	N	
+375	The importance of flowers	Romeo	Y	ending; everyone lives; comic timing;
+376	LETS DO THIS	R&J	N	
+377	Protein shake for Romeo	Juliet	N	
+378	Juliet to make poison to be delivered	Juliet	N	
+379	Lady Montague rigormortis CMIO	Rosaline	N	
+380	Ignore knocking, but it comes back	Juliet	N	
+381	Stabs to meet you and alibi	Romeo	N	Tom Paris dies; killed by stabbing in the eye
+382	Sticks under bench	Nurse	N	
+383	Kissing well	R&J	N	
+384	Hasty goodbye & a knock	Juliet	N	
+385	Benvolio's empty home	Rosaline	N	
+386	Mom tells about engagement to Tom Paris	Juliet	N	
+387	Fight and Establish alibi	Romeo	N	Tom Paris dies; stabbed by Romeo
+388	Protein shakes forever together	Juliet	Y	ending; Juliet runs away to Mantua; muscle babies born; inherit from Duke of Mantua
+389	Remove Montague Imposter failure	Rosaline	Y	ending; Rosaline dies; beaten by Montague guards;
+390	Sceptisism of mom's motives	Juliet	N	
+391	Escape gatekeeper's animals	Nurse	N	
+392	Confront Mercutio	Rosaline	Y	ending; Romsaline dies; death by poison; Mercutio escapes
+393	Parents force marriage of Tom Paris	Juliet	N	
+394	Successful distraction at Capulet castle	R&J	N	
+395	Marry/sex/murder cookies	Juliet	Y	ending; Romeo dies; poison cookies; Tom Paris dies;
+396	Re-choose a character	Reader	N	
+397	Bright stars and possiblities	Romeo	Y	ending; everyone lives; starlight so bright
+398	Senseless killing your leads	Rosaline	Y	ending; suspect dies; (servant or Benvolio); Rosaline leaves town
+399	Empty park	Nurse	N	
+400	Money, happiness and robot suits	Juliet	Y	ending; peace; Romeo unbanished; be rich; conqeur Europe with robot suits
+401	Doing things well	R&J	N	
+402	Mom comforts you over Tybalt	Juliet	N	
+403	How fancy to ask?	Juliet	N	(juliet trapped by parents)
+404	Deliver news to Juliet	Nurse	Y	ending; Quest completed; 1000 of 1000 points
+405	Awkard acceptance of Romeo	Juliet	N	
+406	Consequences of two murders	Romeo	Y	ending; Juliet wakes; Romeo in prison for life;
+407	Special reading medal	Romeo	N	
+408	Wake up to tragedy	Juliet	N	Romeo dies; suicide by poison
+409	Nope, you're discovered by guards	R&J	N	
+410	Confront Benvolio	Rosaline	N	
+411	Romeo at Ninjas	R&J	N	
+412	Start worrying	Juliet	N	
+413	Packing your bindle	Juliet	N	
+414	Before the final soliloquy	Romeo	N	
+415	Posioning and alibi	Romeo	N	Tom Paris dies; killed by poison
+416	Normal pleading to Nurse	Juliet	N	
+417	Nice try	Reader	N	
+418	Rooster testicle info	Reader	N	
+419	Juliet at Punks	R&J	N	
+420	Choose your death	Juliet	N	
+421	Punks beaten; Juliet beaten by ninjas	R&J	N	Juliet dies; stabbed by 15 ninjas
+422	Fancy potion and ploy worries	Juliet	N	
+423	Silent creepy standoff	R&J	N	
+424	You sure?	Romeo	N	
+425	See Juliet in her tomb	Romeo	N	
+426	Sticks didn't hold	Nurse	Y	ending; Nurse dies; eaten by dogs and lions
+427	Flancy pleading to Nurse	Juliet	N	
+428	Walk away from Verona into the night	Juliet	Y	ending; Romeo dies; suicide by poison; Juliet runs away
+429	Indigity and Justice for Benvolio	Rosaline	Y	ending; Rosaline dies; poison; Mercutio dies; bleeding out;
+430	Unprecidented high five and two groups of guards	R&J	N	
+431	Beat the punks and get a secret code	R&J	N	
+432	Knife at your throat	Juliet	N	
+433	Juliet still sleeps	Juliet	N	
+434	Final normal words	Romeo	N	Romeo dies; suicide by poison
+435	Slide poition and ploy worries	Juliet	N	
+436	Find Romeo in Mantua	Juliet	N	
+437	Romeo(?) asks balthasar to get a picnic together	Romeo	N	
+438	Efficient reset of all characters	R&J	N	
+439	Fake death is the solution	Juliet	N	
+440	Benvolio reveals the plot	Rosaline	N	
+441	Dang Romeo dies	Romeo	Y	ending; Romeo dies; suicide by poison
+442	Sucessful Capulet heist	R&J	N	
+443	Steal a horse and ride to Mantua	Juliet	N	
+444	World weightlifting record death	Juliet	Y	ending; Juliet dies; Coffin on head; Romeo dies; suicide by poison; 263.5 kilograms of points
+445	Romeo at Punks	R&J	N	
+446	Lost the case, got the girl	Rosaline	Y	ending; Benvolio dies; poison; Mercutio escapes
+447	isolation of Verona and haunted castle adventures	R&J	Y	ending; Verona declines; control both happily ever after; ghost city adventures
+448	Friar proposes faking your death	Juliet	N	
+449	Take control of all of the things	R&J	Y	ending; control the world
+450	Unsettling life Romeo(?) is Juliet	Romeo	Y	ending; Romeo is Juliet; weird!
+451	Final fancy words	Romeo	N	Romeo dies; suicide by poison
+452	Ninjas beat Romeo; Juliet gives up	R&J	Y	ending; Romeo dies; stabbed by Ninja; Juliet dies; dirty street fighting;
+453	Surprisingly difficult ninjas	R&J	Y	ending; Romeo dies; stabbed by Ninja; Juliet dies; stabbed by Ninjas
+454	Juliet Capulet Superstar	Juliet	Y	ending; Romeo dies; death by poison; a religion forms around Juliet
+455	Capulets discuss the wedding tomorrow	Juliet	N	
+456	Juliet at Ninjas	R&J	N	
+457	Meet Tom Paris at Friar's	Juliet	N	(friar's solution to life's problems)
+458	Romeo(?) catches up for Juliet	Romeo	N	
+459	Picnic and sunrise	Juliet	Y	ending; everything ends well
+460	Gross neck stabbing	Juliet	Y	ending; Juliet dies; suicide by stabbing; Romeo dies; SO dramatic;
+461	The play's end	Juliet	Y	ending; Juliet dies; suicide by dagger; Montague and Capulet make peace; gold statues!
+462	Nurse doesn't come	Juliet	N	
+463	Embarassing death scene	Juliet	Y	ending; Juliet dies; stabbed in guts; Romeo dies; suicide by poison
+464	Book mirroring dreams	Romeo	N	
+465	Explain marriage with Romeo to your mom	Juliet	N	
+466	Efficient life in Sanguene	R&J	Y	ending; control both happily ever after
+467	Thinking on the ride to Verona	Juliet	N	
+468	Creepy Tybal ghost	Juliet	N	
+469	No poison left	Juliet	N	
+470	Ninjas beaten by love; Moral outage	R&J	Y	ending; Romeo dies; stabbed by Ninja; Juliet dies; dirty street fighting;
+471	Juliet takes the potion, Friar will send word	Juliet	N	
+472	Midsummer Night's Choice in hard mode	Romeo	N	
+473	Friar gives the fake death potion	Juliet	N	
+474	Drink, sleep and dream	Juliet	N	
+475	Artists bio	Reader	N	
+476	Try to read the ending	Reader	Y	ending; can't cheat at reading non-linear stories
+Cover	It's pretty	Reader	N	
+THE END	You did the thing.	Reader	N	
+THE END FOR REAL THIS TIME	Your really did the thing.	Reader	N	
