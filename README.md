@@ -20,4 +20,4 @@ You can read more about the technical aspects of implementation on my blog post 
 [d3s]: https://github.com/d3/d3/wiki
 [python]: https://docs.python.org/3/ 
 [networkx]: https://networkx.github.io/
-[raoj-blog]: http://dvndrsn.com/2016/07/22/raoj-impressions.html
+[raoj-blog]: https://dvndrsn.com/2016/07/22/raoj-impressions.html
