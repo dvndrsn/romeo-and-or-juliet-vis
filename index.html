@@ -1,52 +1,86 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <link href='https://fonts.googleapis.com/css?family=Catamaran:900' rel='stylesheet' type='text/css'>
-        <link href="styles/raoj.css" rel="stylesheet" type="text/css">
-        <title>DVNDRSN - Romeo and/or Juliet and/or Graph Theory</title>
-    </head>
-    <body>
-        <div class="container">
-            <div class="content">
-        <header>
-            <div class="title" ">
-                <h1>ROMEO AND/OR JULIET<br>AND/OR GRAPH THEORY</h1>
-            </div>
-            <div class="notes">
-                <p class="quote">It is not in the stars to hold our destiny but in ourselves.<br>-William Shakespeare</p>
-                <p>The below constellation of choices represents all possible paths and 100+ endings present in <a href="https://twitter.com/ryanqnorth">Ryan North's</a> wonderful chooseable path adventure <a href="http://www.romeoandorjuliet.com/">Romeo and/or Juliet</a>.</p>
-            </div>
-        </header>
-        <section class="graph-sec">
-        </section>
-        <section class="text">
-            <div class="notes">
-                <p>One of the pleasures of Ryan's interpretation of R&J is the sense of discovery through exploring the many branching choices of the story. As you flip through the book, even brief glimpses of the other possible choices and beautifully illustrated endings (<a href="https://twitter.com/johnmartz/status/740220631480819712">tragic stabby endings</a>, <a href="https://twitter.com/kevinjaystanton/status/740190136256847872">happy endings</a>, <a href="https://twitter.com/ryanqnorth/status/739091475552698368">weird endings</a> and <a href="https://twitter.com/michaelfirman/status/740259107140177923">t-rex endings</a>) encourage the reader to meander and learn more about the possibilities and structure of the narritive.</p>
-                <p>This visualization allows a different kind of exploration and discovery of the work; showing the entire structure from a bird's eye view with branching and converging fates of the characters as choices are made through the story. Even if you've haven't read the book yet, it should be possible to get an appreciation for the intricate planning and creativity that went into building this experience (hopefully with minimal spoilers!).</p>
-                <p>Pretty decision graphs aside, <a href="https://www.amazon.com/gp/product/1101983302/ref=as_li_tl?ie=UTF8&tag=dvndrsn-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=1101983302&linkId=38237c595e57b604459c88589ca36d77">the book</a> is certainly worth picking up. Not only does it play off <a href="http://www.qwantz.com/">geeky humor</a>, <a href="http://www.cracked.com/article_22188_7-choose-your-own-adventure-books-clearly-conceived-lsd.html">nostalaglia for past Choose Your Own Adventure Books</a> and <a href="https://www.wikiwand.com/en/Romeo_and_Juliet">expectations from Shakespeare's classic story</a> in truly hilarious manner, I also found that reading this gave me better appreciation of the true cost of bad teen decisions, bad timing and bad communication skills as well as a deeper insight into what made Shakespeare's works such a lasting influence.</p>
-                <p>This page was created using graphics from <a href="https://github.com/d3/d3/wiki">D3.js's</a> force directed layout with <a href="https://github.com/d3/d3/wiki">SVG</a>, data processing using <a href="https://docs.python.org/3/">Python's</a> <a href="https://networkx.github.io/">Networkx</a> library and good old fashioned data entry gumption. You can read more about the technical aspects of implementation on my blog <a href="http://dvndrsn.com/2016/07/22/raoj-impressions.html">here</a>.</p>
-            </div>
-            <div class="notes">
-                <p><i>Tips for reading the graph:</i></p>
-                <ul>
-                    <li><b>Hover your mouse over a passage or choice</b> <i>to see more information about it</i>.</li>
-                    <li>
-                        <b>Click and drag passages</b> <i>to get a better look at the dynamic layout</i>.
-                    </li>
-                    <li><b>Circles</b> (
-                        <svg width="10" height="10">
-                            <circle class="node" r="3" fill="#FFFFFF" cx="5" cy="5""></circle>
+
+<head>
+    <meta charset="utf-8">
+    <link href='https://fonts.googleapis.com/css?family=Catamaran:900' rel='stylesheet' type='text/css'>
+    <link href="styles/raoj.css" rel="stylesheet" type="text/css">
+    <title>DVNDRSN - Romeo and/or Juliet and/or Graph Theory</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="content">
+            <header>
+                <div class="title">
+                    <h1>ROMEO AND/OR JULIET<br>AND/OR GRAPH THEORY</h1>
+                </div>
+                <div class="notes">
+                    <p class="quote">It is not in the stars to hold our destiny but in ourselves.<br>-William
+                        Shakespeare</p>
+                    <p>The below constellation of choices represents all possible paths and 100+ endings present in <a
+                            href="https://twitter.com/ryanqnorth">Ryan North's</a> wonderful chooseable path adventure
+                        <a href="http://www.romeoandorjuliet.com/">Romeo and/or Juliet</a>.
+                    </p>
+                </div>
+            </header>
+            <section class="graph-sec">
+            </section>
+            <section class="text">
+                <div class="notes">
+                    <p>One of the pleasures of Ryan's interpretation of R&J is the sense of discovery through exploring
+                        the many branching choices of the story. As you flip through the book, even brief glimpses of
+                        the other possible choices and beautifully illustrated endings (<a
+                            href="https://twitter.com/johnmartz/status/740220631480819712">tragic stabby endings</a>, <a
+                            href="https://twitter.com/kevinjaystanton/status/740190136256847872">happy endings</a>, <a
+                            href="https://twitter.com/ryanqnorth/status/739091475552698368">weird endings</a> and <a
+                            href="https://twitter.com/michaelfirman/status/740259107140177923">t-rex endings</a>)
+                        encourage the reader to meander and learn more about the possibilities and structure of the
+                        narrative.</p>
+                    <p>This visualization allows a different kind of exploration and discovery of the work; showing the
+                        entire structure from a bird's eye view with branching and converging fates of the characters as
+                        choices are made through the story. Even if you've haven't read the book yet, it should be
+                        possible to get an appreciation for the intricate planning and creativity that went into
+                        building this experience (hopefully with minimal spoilers!).</p>
+                    <p>Pretty decision graphs aside, <a
+                            href="https://www.amazon.com/gp/product/1101983302/ref=as_li_tl?ie=UTF8&tag=dvndrsn-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=1101983302&linkId=38237c595e57b604459c88589ca36d77">the
+                            book</a> is certainly worth picking up. Not only does it play off <a
+                            href="http://www.qwantz.com/">geeky humor</a>, <a
+                            href="http://www.cracked.com/article_22188_7-choose-your-own-adventure-books-clearly-conceived-lsd.html">nostalaglia
+                            for past Choose Your Own Adventure Books</a> and <a
+                            href="https://www.wikiwand.com/en/Romeo_and_Juliet">expectations from Shakespeare's classic
+                            story</a> in truly hilarious manner, I also found that reading this gave me better
+                        appreciation of the true cost of poor teen decisions, bad timing and worse communication skills
+                        while providing deeper insight into what made Shakespeare's works such a lasting influence.</p>
+                    <p>This page was created using graphics from <a href="https://github.com/d3/d3/wiki">D3.js's</a>
+                        force directed layout with SVG, data processing
+                        using <a href="https://docs.python.org/3/">Python's</a> <a
+                            href="https://networkx.github.io/">Networkx</a> library and good old fashioned data entry
+                        gumption. You can read more about the technical aspects of implementation on my blog <a
+                            href="http://dvndrsn.com/2016/07/22/raoj-impressions.html">here</a>.</p>
+                </div>
+                <div class="notes">
+                    <p><i>Tips for reading the graph:</i></p>
+                    <ul>
+                        <li><b>Hover your mouse over a passage or choice</b> <i>to see more information about it</i>.
+                        </li>
+                        <li>
+                            <b>Click and drag passages</b> <i>to get a better look at the dynamic layout</i>.
+                        </li>
+                        <li><b>Circles</b> (
+                            <svg width="10" height="10">
+                                <circle class="node" r="3" fill="#FFFFFF" cx="5" cy="5""></circle>
                         </svg>
                         ) <i>represent the story passages</i>.
                     <ul>
                     <li><b>The color of the passage</b> <i>represents the character point of view</i>:
                         <ul>
-                            <li><b class="reader"">White</b> <i>for the reader</i>.</li>
-                            <li><b class="romeo">Red</b> <i>for Romeo</i>.</li>
-                            <li><b class="juliet">Light red</b> <i>for Juliet</i>.</li>
-                            <li><b class="other">Other colors</b> <i>represent hidden characters and paths</i>.</li>
-                        </ul>
+                            <li><b class=" reader"">White</b> <i>for the reader</i>.
+                        </li>
+                        <li><b class="romeo">Red</b> <i>for Romeo</i>.</li>
+                        <li><b class="juliet">Light red</b> <i>for Juliet</i>.</li>
+                        <li><b class="other">Other colors</b> <i>represent hidden characters and paths</i>.</li>
+                    </ul>
                     </li>
                     <li><b>Larger circles</b> (
                         <svg width="20" height="20">
@@ -56,8 +90,8 @@
                     </li>
                     <li>
                         <b>The largest circles</b> (
-                        <svg width="30" height="30">
-                            <circle class="node" r="12" fill="#FFFFFF" cx="15" cy="15""></circle>
+                        <svg width=" 30" height="30">
+                                <circle class="node" r="12" fill="#FFFFFF" cx="15" cy="15""></circle>
                         </svg>
                         ) <i>show the story's beginning and true ending</i>.
                     </li>
@@ -71,19 +105,25 @@
             </div>
         </section>
         <footer>
-            <p><i>Created by <a href="https://twitter.com/dvndrsn">@dvndrsn</a> as a <a href="http://recurse.com/">Recurse Center</a> alum. Code is open source and available on <a href="https://github.com/dvndrsn/romeo-and-or-juliet-vis">github</a>.</i></p>
-        </footer>
-        <script src="http://d3js.org/d3.v3.min.js"></script>
-        <script src="scripts/raoj.js"></script>
-        <script>
-         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-             (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-                                  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-         })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+            <p><i>Created by Charley and <a href=" https://twitter.com/dvndrsn">@dvndrsn</a> as a <a
+                                        href="http://recurse.com/">Recurse Center</a> alum. Code is open source and
+                                    available on <a
+                                        href="https://github.com/dvndrsn/romeo-and-or-juliet-vis">github</a>.</i></p>
+                                    </footer>
+                                    <script src="http://d3js.org/d3.v3.min.js"></script>
+                                    <script src="./js/raoj.js"></script>
+                                    <script>
+                                        (function (i, s, o, g, r, a, m) {
+                                            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                                                (i[r].q = i[r].q || []).push(arguments)
+                                            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                                                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+                                        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
-         ga('create', 'UA-72575742-1', 'auto');
-         ga('send', 'pageview');
+                                        ga('create', 'UA-72575742-1', 'auto');
+                                        ga('send', 'pageview');
 
-        </script>
-    </body>
+                                    </script>
+</body>
+
 </html>

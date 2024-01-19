@@ -137,7 +137,7 @@ class RaoJGraph:
 
         return spl, sp
 
-    def export_json(self, json_file='RaoJ.json'):
+    def export_json(self, json_file='../json/RaoJ.json'):
         self.G.remove_node('THE END')
 
         d = json_graph.node_link_data(self.G)
