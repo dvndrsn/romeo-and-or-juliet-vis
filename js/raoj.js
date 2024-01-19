@@ -20,7 +20,7 @@ var svg = d3.select(".graph-sec").append("svg")
 
 var container = svg.append("g");
 
-d3.json("../json/RaoJ.json", function (error, graph) {
+d3.json("./json/RaoJ.json", function (error, graph) {
     if (error) throw error;
 
     force
